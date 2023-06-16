@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* REVIEWS */
+.reviews{
+   background: #0D0D23;
+   height: 722px;
+}
+.reviews__title{
+    color: #fff;
+    font-family: 'Chillax';
+    font-size: 48px;
+    text-align: center;
+}
+.reviews__block{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px;
+    width: 400px;
+    height: 391px;
+    background: #1B1B2C;
+    border-radius: 64px;
+}
+.reviews__block-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+
+
+/* SUBSCRIBE */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    height: 440px;
+    background: rgb(27, 27, 44);
+}
+.subscribe__title{
+    font-family: 'Chillax';
+    font-size: 48px;
+    color: #fff;
+}
+.subscribe__text{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    
+}
+input[type="email"]{
+    background: #1B1B2C;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+input[type="submit"]{
+    left: -5px;
+    position: relative;
+    border-radius:  0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #5068E7;
+    color: #fff;
+}
+input[type="submit"]:hover{
+    background: #011781;
+}
+
+
+
+/* FOOTER */
+footer{
+    background: #0D0D23;
+    color: #fff;
+    padding: 80px 256px;
+    width: 100%;
+    height: 475px;    
+}
+.footer__icons{
+    display: flex;
+    width: 200px;
+    justify-content: start;
+}
+.footer__icons i{
+    padding-right: 30px;
+    color: #5068E7;
+}
+footer .col-3 h3:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
