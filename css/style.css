@@ -10,10 +10,11 @@
     height: auto;
     background: #28283C;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .video__left{
-    width: 40%;
+    width: 600px;
 }
 .video__left-title{
     font-family: 'Chillax';
@@ -49,7 +50,11 @@
     background-position: 0 0;
 }
 .video__right{
-    width: 50%;
+    width: 600px;
+}
+
+.first-block, .second-block{
+    display: none;
 }
 
 /* REVIEWS */
@@ -57,16 +62,37 @@
    background: #0D0D23;
    width: 100%;
    height: 722px;
+   align-items: center;
+   /* border: 1px solid #0D0D23; */
 }
-.reviews__title{
+
+.reviews__head{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reviews__head-title{
+    display: block;
+    width: 70%;
+    float: left;
     color: #fff;
     font-family: 'Chillax';
     font-size: 48px;
     text-align: center;
 }
-.reviews__row{
-    width: 1297px;
-    margin: 0 auto;
+
+.reviews__head-btn{
+    float: left;
+}
+
+.reviews__blocks{
+    min-height: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .reviews__block{
     color: #fff;
@@ -74,12 +100,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 56px;
+    padding: 40px;
     width: 400px;
     height: 391px;
     background: #1B1B2C;
     border-radius: 64px;
-    margin-left: 25px;
 }
 .reviews__block-stars{
     display: inline-flex;
@@ -105,7 +130,6 @@
 }
 
 .reviews__block-user{
-    /* display: flex; */
     width: 100%;
 }
 .reviews__block-img{
@@ -135,24 +159,26 @@
 
 /* SUBSCRIBE */
 .subscribe{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;    
+    width: 100%;
     height: 440px;
     background: rgb(27, 27, 44);
 }
 .subscribe__title{
+    margin-top: 110px;
     font-family: 'Chillax';
     font-size: 48px;
     color: #fff;
+    text-align: center;
 }
 .subscribe__text{
     font-family: 'Lato';
     font-size: 20px;
     color: #FFFFFF;
     opacity: 0.6;
+    text-align: center;
+}
+.subscribe__form{
+    text-align: center;
 }
 input{
     position: relative;
@@ -208,7 +234,7 @@ footer{
     padding-right: 20px;
     color: #5068E7;
 }
-footer .col-3 h3:hover{
+footer h3:hover{
     transition: .5s;
     transform: scale(1.1);
 }
