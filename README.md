@@ -2,7 +2,7 @@
 Совместная верстка 24х7
 
 # 👋 Салам Разработчик!
-<img alt="Static Badge" src="https://img.shields.io/badge/SHAKHZOD_FRONTEND-FIDO_BIZNES-blue">
+<img alt="Static Badge" src="https://img.shields.io/badge/SHAKHZOD-CRYPTO_KILLA-red">
 <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/rating/aejoelaoggembcahagimdiliamlcdmfm">
 
 Это наш первый тестовый проект, в котором может поучаствовать любой желающий. Будь это правки, советы или другая информация — мы вам только рады!
